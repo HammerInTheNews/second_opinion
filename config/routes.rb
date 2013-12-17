@@ -2,6 +2,7 @@ SecondOpinion::Application.routes.draw do
   get "info", to: "static#info"
 
   get "landing", to: "static#landing"
+  resources :quizzes
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
