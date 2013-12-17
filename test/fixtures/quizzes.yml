@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  questions: MyString
+  answers: MyString
+  score: 1
+  result: MyString
+
+two:
+  questions: MyString
+  answers: MyString
+  score: 1
+  result: MyString
