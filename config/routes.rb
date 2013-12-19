@@ -1,6 +1,7 @@
 SecondOpinion::Application.routes.draw do
+  
+  root to: "static#landing"
   get "info", to: "static#info"
-
   get "landing", to: "static#landing"
   resources :quizzes
 

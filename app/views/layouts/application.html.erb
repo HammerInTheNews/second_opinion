@@ -2,9 +2,12 @@
 <html>
 <head>
   <title>SecondOpinion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <!-- Latest compiled and minified CSS -->
 </head>
 <body>
 	<%= link_to_unless_current "Landing", info_path %>
@@ -12,5 +15,7 @@
 
 <%= yield %>
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>
